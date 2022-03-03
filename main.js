@@ -1,6 +1,4 @@
-
-
-const butt = document.querySelector('button', getResidents)
+const button = document.querySelector('button', getResidents)
 
 function getResidents() {
     axios.get('https://swapi.dev/api/planets/2')
@@ -15,4 +13,4 @@ function getResidents() {
        } 
     })
 }
-butt.addEventListener('click', getResidents)
+button.addEventListener('click', getResidents)
